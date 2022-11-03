@@ -33,7 +33,7 @@ async function makeApiCall(searchTerm) {
             data.weather[0].description;
         const weatherImg = document.getElementById("weather-img");
         const weatherImageUrl =
-            "http://openweathermap.org/img/wn/" +
+            "https://openweathermap.org/img/wn/" +
             data.weather[0].icon +
             "@4x.png";
         weatherImg.src = weatherImageUrl;
