@@ -7,7 +7,7 @@
 }
 
 body {
-    background: url(images/bg.png);
+    background: url(images/bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Poppins", sans-serif;
@@ -146,7 +146,7 @@ footer a {
 
 @media (max-width: 1048px) {
     body {
-        background: url("images/bg-phone.png");
+        background: url("images/bg-phone.webp");
         background-repeat: no-repeat;
         background-size: 100% 100vh;
     }
